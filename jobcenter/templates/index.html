@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.41.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <title>Job Center - Home Pages</title>
+  <html data-theme="light">
+  </html>
+</head>
+{% load static %}
+<body>
+  <!-- Navbar Start -->
+  <div class="navbar bg-blue-400">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <label tabindex="0" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </label>
+        <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a>Home</a></li>
+          <li tabindex="0">
+            <a>
+              Find Job
+              <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+              </svg>
+            </a>
+            <ul class="p-2">
+              <li><a>Search Jobs</a></li>
+              <li><a>Urgent Jobs</a></li>
+              <li><a>Featured Jobs</a></li>
+              <li><a>Employers</a></li>
+            </ul>
+          </li>
+          <li><a>Find Internship</a></li>
+          <li><a>Shop</a></li>
+          <li><a>Cart</a></li>
+          <li tabindex="0">
+            <a>
+              More
+              <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+              </svg>
+            </a>
+            <ul class="p-2">
+              <li><a>About</a></li>
+              <li><a>Contact</a></li>
+              <li><a>Pricing</a></li>
+              <li><a>Blog</a></li>
+              <li><a>FAQ</a></li>
+              <li><a>Terms</a></li>
+              <li><a>Privacy Policy</a></li>
+              <li><a>Refund & Cancellation Policy</a></li>
+            </ul>
+          </li>
+          <div class="navbar-end py-2">
+            <button class="btn btn-success text-[2]">Login/Register</button>
+          </div>
+          <div class="navbar-end w-full">
+            <button class="btn btn-success text-[2]">Post Job</button>
+          </div>
+        </ul>
+      </div>
+      <a class="btn btn-ghost normal-case text-xl">Job Center</a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal p-0">
+        <li><a>Home</a></li>
+        <li tabindex="0">
+          <a>
+            Find Job
+            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+              <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+            </svg>
+          </a>
+          <ul class="p-2">
+            <li><a>Search Jobs</a></li>
+            <li><a>Urgent Jobs</a></li>
+            <li><a>Featured Jobs</a></li>
+            <li><a>Employers</a></li>
+          </ul>
+        </li>
+        <li><a>Find Internship</a></li>
+        <li><a>Shop</a></li>
+        <li><a>Cart</a></li>
+        <li tabindex="0">
+          <a>
+            More
+            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+              <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+            </svg>
+          </a>
+          <ul class="p-2">
+            <li><a>About</a></li>
+            <li><a>Contact</a></li>
+            <li><a>Pricing</a></li>
+            <li><a>Blog</a></li>
+            <li><a>FAQ</a></li>
+            <li><a>Terms</a></li>
+            <li><a>Privacy Policy</a></li>
+            <li><a>Refund & Cancellation Policy</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar-end hidden lg:flex">
+     <a href="login"> <button class="btn btn-success">Login/Register</button></a>
+    </div>
+    <div class="navbar-end hidden lg:flex">
+      <button class="btn btn-success">Post Job</button>
+    </div>
+  </div>
+  <!-- Navbar End Here -->
+
+  <!-- Main Part Start -->
+  <div class="grid grid-cols-2 gap-4 w-full h-[100vh] bg-blue-200">
+    <div class="w-full mt-24">
+      <h1 class="text-4xl ml-8">Jobs Center <br/>Redefining recruitment for <br/>Technology and Finance industry.</h1>
+      <p class="my-8 ml-8 text-2xl">Helping you to land your dream job and Internship!</p>
+      <div class="bg-white w-[90%] h-30 ml-6 grid grid-cols-3 gap-2 p-4 rounded-2xl">
+        <input type="text" placeholder="Jobs title, keywords..." class="input bg-base-600 w-[90%] border-0" />
+        <p class="w-[13%] pt-3">Location</p>
+        <button class="btn w-28">Search</button>
+      </div>
+      <p class="text-2xl ml-8 my-8">Popular Searches: Designer, Developers, Web, IOS, Node, Python, Senior Engineer</p>
+      <div class="grid grid-cols-2 ml-8 text-2xl">
+        <p>Land Your Dream Jobs...</p>
+        <p>Upload Your CV</p>
+      </div>
+    </div>
+    <div class="mt-24 ml-16">
+      <img src="{% static 'images/job1.png' %}">
+    </div>
+  </div>
+  <!-- Urgent Jobs-->
+<div class="bg-blue-200">
+  <h2 class="text-4xl w-[90%] h-14 bg-green-500 my-8 mx-12 text-center p-2">Urgent Jobs</h2>
+  <p class="text-[20px] text-center">Know your worth and find the job that qualify your life</p>
+  <div>
+
+  </div>
+</div>  
+      
+  <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
